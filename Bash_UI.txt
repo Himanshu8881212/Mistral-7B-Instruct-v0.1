@@ -1,0 +1,10 @@
+@echo off
+
+REM Navigate to the directory containing your virtual environment
+cd /d path\to\the\venv
+
+REM Activate the virtual environment
+call .\Scripts\activate
+
+REM Run the Python script
+python path\to\the\python_file.py
